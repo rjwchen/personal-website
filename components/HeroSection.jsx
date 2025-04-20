@@ -4,7 +4,7 @@ import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
 
-export default function Home() {
+export default function HeroSection() {
   const personalData = {
     name: "Raymond",
     designation: "Master's Student",
@@ -74,3 +74,4 @@ export default function Home() {
     </section>
   );
 }
+
